@@ -1,3 +1,24 @@
+# SemanticKITTI prediction example
+
+This is (near) minimal quickstart example for generating predictions within the SemanticKITTI API. It does not apply convolutional networks or is optimized for any reasonable segmentation performance. Rather, it demonstrates
+- how to import LIDAR data into your Python source
+- how to perform basic clustering with a (H)DBSCAN method
+- how to perform segmentation based on fixed object size parameters
+- how to save the predictions
+- how to do simple object tracking frame to frame
+
+This source is not clean or optimized in any way.
+
+After installing SemanticKITTI and preparing an empty predictions folder, predictions can be performed with
+```sh
+$ python3 predict_hdbscan.py --dataset dataset --predictions dataset --sequence 00
+```
+
+On the first frame of sequence 00 of the SemanticKITTI velodyne data, an example result looks as such:
+![Visualization of a segmentation result](segmentation_example.png)
+
+Find below the SemanticKITTI documentation from its [original repo](https://github.com/PRBonn/semantic-kitti-api).
+
 # API for SemanticKITTI
 
 This repository contains helper scripts to open, visualize, process, and 
