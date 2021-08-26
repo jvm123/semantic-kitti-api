@@ -1,3 +1,6 @@
+# (C) 2021 Julian von Mendel <prog@derjulian.net>
+# MIT License
+
 import os
 import sys
 import argparse
@@ -206,3 +209,4 @@ if __name__ == "__main__":
             print("id {} from previous frame vanished".format(obj_id))
         idlist_previous = idlist.copy()
         idlist.clear()
+
