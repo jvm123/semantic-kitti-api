@@ -1,6 +1,6 @@
 # SemanticKITTI prediction example
 
-This is (near) minimal quickstart example for generating predictions within the SemanticKITTI API. It does not apply convolutional networks or is optimized for any reasonable segmentation performance. Rather, it demonstrates
+predict_hdbscan.py is (near) minimal quickstart example for generating predictions within the SemanticKITTI API. It does not apply convolutional networks or is optimized for any reasonable segmentation performance. Rather, it demonstrates
 - how to import LIDAR data into your Python source
 - how to perform basic clustering with a (H)DBSCAN method
 - how to perform segmentation based on fixed object size parameters
